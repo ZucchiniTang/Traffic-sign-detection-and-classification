@@ -1,1 +1,20 @@
 # Traffic-sign-detection-and-classification
+
+## 1. Idea
+
+1. __Extract__ better __feature map__ which input to detection/classification model
+  1. Using __Saliency map__ (try to combine traditional and Neural network method to get saliency map) 
+    1. Traditional method
+       1. Paper: *Accurate and Efficient Traffic Sign Detection Using Discriminative AdaBoost and Support Vector Regression* http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7328325 
+           1. Page 4008: Enhancd Feature Pyramids - 根据traffic sign的颜色和（形状）特性来改变color channel.
+           2. Page 4010: Learn a Gaussian mixture model(GMM) to approximate the distribution of these signs' positions in the detection image.
+    2. Neural Network method
+        1. Paper: *Shallow and Deep Convolutional Networks for Saliency Prediction* - shallow and deep CNN model, transfer learning
+        2. Paper: *SalGAN: Visual Saliency Prediction with Generative Adversarial Networks* - GAN
+  
+
+
+
+```python
+
+```
